@@ -1,0 +1,7 @@
+<app-data (show)="fn($event)" *ngIf="status"></app-data>
+<app-details [list]="data" *ngIf="status1"></app-details> &nbsp;
+&nbsp;
+
+<input (keyup)="key($event)" [(ngModel)]="searchText" >&nbsp;
+
+<input [(ngModel)]="sample">
